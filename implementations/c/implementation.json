@@ -1,0 +1,29 @@
+{
+    "type": "implementation",
+    "short-name":"c",
+    "description":"Reference C implementation ported from PolyBench/C",
+    "language":"c",
+    "core-source-files":[
+       { "file": "./correlation.c"}
+    ],
+    "compilation-flags": [
+       { "expand": "/experiment/input-size" }
+    ],
+    "runner-source-file": { "file": "./utilities/polybench.c"}
+    "runner-arguments": [
+    ],
+    "include-directories":[
+        { "file": "./utilities/" },
+        { "file": "./" }
+    ],
+    "dependencies": [
+        {
+            "source": "https://github.com/Sable/polybench-c-utilities.git",
+            "destination": "./utilities"
+        }
+    ],
+    "compatibilities": [
+        "https://github.com/Sable/ostrich-gcc-compiler.git",
+        "https://github.com/Sable/ostrich-native-environment.git"
+    ]
+}

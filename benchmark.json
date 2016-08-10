@@ -1,0 +1,12 @@
+{
+    "type": "benchmark",
+    "name":"Polybench Data-Mining Correlation Benchmark",
+    "short-name":"correlation",
+    "description":"",
+    "version":"0.1.0",
+    "input-size":{
+        "small": "-DSMALL_DATASET",
+        "medium": "-DSTANDARD_DATASET",
+        "large": "-DLARGE_DATASET"
+    }
+}
