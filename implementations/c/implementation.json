@@ -7,7 +7,8 @@
        { "file": "./correlation.c" }
     ],
     "compilation-flags": [
-       { "expand": "/experiment/input-size" }
+       { "expand": "/experiment/input-size" },
+       "-DPOLYBENCH_TIME"
     ],
     "runner-source-file": { "file": "./utilities/polybench.c" },
     "runner-arguments": [
