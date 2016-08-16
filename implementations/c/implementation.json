@@ -12,7 +12,7 @@
     "runner-source-file": { "file": "./correlation.c" },
     "runner-arguments": [
     ],
-    "librairies": [
+    "libraries": [
        { "file": "./utilities/polybench.c" } 
     ],
     "include-directories":[
