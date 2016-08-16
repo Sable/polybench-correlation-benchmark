@@ -4,14 +4,16 @@
     "description":"Reference C implementation ported from PolyBench/C",
     "language":"c",
     "core-source-files":[
-       { "file": "./correlation.c" }
     ],
     "compilation-flags": [
        { "expand": "/experiment/input-size" },
        "-DPOLYBENCH_TIME"
     ],
-    "runner-source-file": { "file": "./utilities/polybench.c" },
+    "runner-source-file": { "file": "./correlation.c" },
     "runner-arguments": [
+    ],
+    "librairies": [
+       { "file": "./utilities/polybench.c" } 
     ],
     "include-directories":[
         { "file": "./utilities/" },
