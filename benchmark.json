@@ -5,8 +5,8 @@
     "description":"",
     "version":"0.1.0",
     "input-size":{
-        "small": "-DSMALL_DATASET",
-        "medium": "-DSTANDARD_DATASET",
-        "large": "-DLARGE_DATASET"
+        "small": "SMALL_DATASET",
+        "medium": "STANDARD_DATASET",
+        "large": "LARGE_DATASET"
     }
 }

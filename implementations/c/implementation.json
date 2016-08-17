@@ -6,7 +6,10 @@
     "core-source-files":[
     ],
     "compilation-flags": [
-       { "expand": "/experiment/input-size" },
+       { 
+         "prefix": "-D",
+         "value": { "expand": "/experiment/input-size" }
+       },
        "-DPOLYBENCH_TIME"
     ],
     "runner-source-file": { "file": "./correlation.c" },
